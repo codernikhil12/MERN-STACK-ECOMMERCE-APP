@@ -8,7 +8,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoute.js";
 import cors from "cors";
 import path from "path";
-import {fileURLtopath} from 'url
+import {fileURLtopath} from 'url'
 dotenv.config();
 
 connectDB();
