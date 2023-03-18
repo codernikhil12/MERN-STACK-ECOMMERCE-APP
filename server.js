@@ -8,12 +8,12 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoute.js";
 import cors from "cors";
 import path from "path";
-import {fileURLtopath} from 'url'
+import {fileURLToPath} from 'url'
 dotenv.config();
 
 connectDB();
 // esmoudule fix
-const __filename = fileURLtopath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 //rest object
